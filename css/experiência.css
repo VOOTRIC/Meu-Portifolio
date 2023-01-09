@@ -68,6 +68,7 @@
     font-weight: bold;
     background-color: #cccccc;
     border-radius: 6px;
+    text-align: center;
 }
 
 .item-lista a:hover {
