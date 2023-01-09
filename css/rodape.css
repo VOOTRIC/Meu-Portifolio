@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+footer {
+    background-color: black;
+
+}
+
+.rodape {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.rodape p {
+    color: #CCCCCC;
+    max-width: 40ch;
+
+}
+
+.rodape img {
+    border-radius: 50%;
+    max-width: 50px;
+}
+
+.redes-rodape {display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    justify-items: left;
+}
+
+.redes-rodape a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+@media (max-width: 550px){
+
+.rodape{
+    justify-items: center;
+    grid-template-columns: 1fr ;
+    gap: 40px;
+}
+
+.rodape p{
+    text-align: center;
+    justify-self: center;
+}
+
+
+.redes-rodape{
+    display: grid;
+    grid-column: 1fr;
+    place-items: center;
+}
+
+.redes-rodape a{
+    display: inline-block;
+}
+
+}

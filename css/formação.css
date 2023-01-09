@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+.formação{
+    background-color: #141414;
+}
+
+.formação h2{
+    color: #000;
+    max-width: 5ch;
+}
+
+.formação div{
+display: grid;
+}
+
+.formação p{
+    text-align: center;
+    align-self: center;
+    line-height: 32px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #a3a3a3;
+    max-width: 50ch;
+}
+
+.formação strong{
+    color: white;
+}
+
+@media (max-width: 1000px){
+
+.formação{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+.formação h2{
+    color: white;
+    text-transform: none;
+    font-size: 2rem;
+    max-width: initial;
+}
+
+.formação p{
+    font-size: 1rem;
+    justify-self: left;
+    text-align: left;
+}
+
+}

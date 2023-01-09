@@ -1,0 +1,582 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+body {
+    margin: 100px 0px 0px 0px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+h2 {
+    color: #614FA0;
+}
+
+p {
+    font-size: 22px;
+    margin: 3px 3px;
+}
+
+footer{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    background-color: rgba(153, 137, 137, 0.575);
+}
+
+
+footer>a{
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 0px 50px;
+}
+
+footer>a>img{
+    width: 50px;
+}
+
+footer>a>p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#github{
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+#cor1 {
+    color: #E5784D;
+}
+
+#cor2 {
+    color: #DC5849;
+}
+
+#cor3 {
+    color: #8E58A5;
+}
+
+#cor4 {
+    color: #614FA0;
+}
+
+#cor5 {
+    color: #6178B8;
+}
+
+#cor6 {
+    color: rgba(102, 102, 102, 0.914);
+}
+
+#cor7 {
+    color: #659c41;
+}
+
+#cor8 {
+    color: #317205;
+}
+
+.titulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 45px;
+}
+
+.grid {
+    padding: 0px 250px;
+    place-content: center;
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.info01 {
+    padding-top: 3px;
+    padding-left: 5px;
+    place-self: start;
+    margin: 0px;
+    font-size: 10px;
+}
+
+.info02 {
+    padding: 0px 3px;
+    margin: 0px;
+    place-self: center;
+    font-size: 11px;
+}
+
+.info03 {
+    font-weight: normal;
+    place-self: center;
+    margin: 0px;
+    font-size: 11px;
+    padding-bottom: 3px;
+}
+
+.column01 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 8px;
+    place-content: center;
+    grid-column: 1;
+    text-align: center;
+    ;
+}
+
+
+.element01 {
+    display: grid;
+    background-color: #E5784D;
+}
+
+
+#hidrogenio {
+    background-color: #659c41;
+}
+
+.element01:hover {
+    transition-duration: 0.3s;
+    transform: scale(1.15);
+}
+
+.column02 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 8px;
+    place-content: end center;
+    grid-column: 2;
+    text-align: center;
+}
+
+.element02 {
+    display: grid;
+    background-color: #DC5849;
+}
+
+.element02:hover {
+    transition-duration: 0.3s;
+    transform: scale(1.15);
+}
+
+.column03 {
+    display: grid;
+    grid-template-columns: 1fr;
+    display: grid;
+    gap: 8px;
+    place-content: end center;
+    grid-column: 3;
+    text-align: center;
+}
+
+.element03 {
+    display: grid;
+    background-color: #8E58A5;
+}
+
+.element03:hover {
+    transition-duration: 0.3s;
+    transform: scale(1.15);
+}
+
+#lantanio {
+    background-color: #BB3A5E;
+}
+
+#actinio {
+    background-color: rgba(209, 16, 16, 0.904);
+}
+
+.column04 {
+    display: grid;
+    grid-template-columns: 1fr;
+    display: grid;
+    gap: 8px;
+    place-content: end center;
+    grid-column: 4;
+    text-align: center;
+}
+
+.element04 {
+    display: grid;
+    background-color: #8E58A5;
+}
+
+.element04:hover {
+    transition-duration: 0.3s;
+    transform: scale(1.15);
+}
+
+.column05 {
+    display: grid;
+    grid-template-columns: 1fr;
+    display: grid;
+    gap: 8px;
+    place-content: end center;
+    grid-column: 5;
+    text-align: center;
+}
+
+.element05 {
+    display: grid;
+    background-color: #8E58A5;
+}
+
+.element05:hover {
+    transition-duration: 0.3s;
+    transform: scale(1.15);
+}
+
+.column06 {
+    display: grid;
+    grid-template-columns: 1fr;
+    display: grid;
+    gap: 8px;
+    place-content: end center;
+    grid-column: 6;
+    text-align: center;
+}
+
+.element06 {
+    display: grid;
+    background-color: #8E58A5;
+}
+
+.element06:hover {
+    transition-duration: 0.3s;
+    transform: scale(1.15);
+}
+
+.column07 {
+    display: grid;
+    grid-template-columns: 1fr;
+    display: grid;
+    gap: 8px;
+    place-content: end center;
+    grid-column: 7;
+    text-align: center;
+}
+
+.element07 {
+    display: grid;
+    background-color: #8E58A5;
+}
+
+.element07:hover {
+    transition-duration: 0.3s;
+    transform: scale(1.15);
+}
+
+.column08 {
+    display: grid;
+    grid-template-columns: 1fr;
+    display: grid;
+    gap: 8px;
+    place-content: end center;
+    grid-column: 8;
+    text-align: center;
+}
+
+.element08 {
+    display: grid;
+    background-color: #8E58A5;
+}
+
+.element08:hover {
+    transition-duration: 0.3s;
+    transform: scale(1.15);
+}
+
+.column09 {
+    display: grid;
+    grid-template-columns: 1fr;
+    display: grid;
+    gap: 8px;
+    place-content: end center;
+    grid-column: 9;
+    text-align: center;
+}
+
+.element09 {
+    display: grid;
+    background-color: #8E58A5;
+}
+
+.element09:hover {
+    transition-duration: 0.3s;
+    transform: scale(1.15);
+}
+
+#meitnerio {
+    background-color: rgba(102, 102, 102, 0.914);
+}
+
+.column10 {
+    display: grid;
+    grid-template-columns: 1fr;
+    display: grid;
+    gap: 8px;
+    place-content: end center;
+    grid-column: 10;
+    text-align: center;
+}
+
+.element10 {
+    display: grid;
+    background-color: #8E58A5;
+}
+
+.element10:hover {
+    transition-duration: 0.3s;
+    transform: scale(1.15);
+}
+
+#Darmstadtio {
+    background-color: rgba(102, 102, 102, 0.914);
+}
+
+.column11 {
+    display: grid;
+    grid-template-columns: 1fr;
+    display: grid;
+    gap: 8px;
+    place-content: end center;
+    grid-column: 11;
+    text-align: center;
+}
+
+.element11 {
+    display: grid;
+    background-color: #8E58A5;
+}
+
+.element11:hover {
+    transition-duration: 0.3s;
+    transform: scale(1.15);
+}
+
+#roentgenio {
+    background-color: rgba(102, 102, 102, 0.914);
+}
+
+.column12 {
+    display: grid;
+    grid-template-columns: 1fr;
+    display: grid;
+    gap: 8px;
+    place-content: end center;
+    grid-column: 12;
+    text-align: center;
+}
+
+.element12 {
+    display: grid;
+    background-color: #614FA0;
+}
+
+.element12:hover {
+    transition-duration: 0.3s;
+    transform: scale(1.15);
+}
+
+#copernicio {
+    background-color: rgba(102, 102, 102, 0.914);
+}
+
+.column13 {
+    display: grid;
+    grid-template-columns: 1fr;
+    display: grid;
+    gap: 8px;
+    place-content: end center;
+    grid-column: 13;
+    text-align: center;
+}
+
+.element13 {
+    display: grid;
+    background-color: #614FA0;
+}
+
+.element13:hover {
+    transition-duration: 0.3s;
+    transform: scale(1.15);
+}
+
+#boro {
+    background-color: #6178B8;
+}
+
+#nihonio {
+    background-color: rgba(102, 102, 102, 0.914);
+}
+
+.column14 {
+    display: grid;
+    grid-template-columns: 1fr;
+    display: grid;
+    gap: 8px;
+    place-content: end center;
+    grid-column: 14;
+    text-align: center;
+}
+
+.element14 {
+    display: grid;
+    background-color: #6178B8;
+}
+
+.element14:hover {
+    transition-duration: 0.3s;
+    transform: scale(1.15);
+}
+
+#carbono {
+    background-color: #659c41;
+}
+
+#chumbo {
+    background-color: #614FA0
+}
+
+#Fleróvio {
+    background-color: rgba(102, 102, 102, 0.914);
+}
+
+.column15 {
+    display: grid;
+    grid-template-columns: 1fr;
+    display: grid;
+    gap: 8px;
+    place-content: end center;
+    grid-column: 15;
+    text-align: center;
+}
+
+.element15 {
+    display: grid;
+    background-color: #659c41;
+}
+
+.element15:hover {
+    transition-duration: 0.3s;
+    transform: scale(1.15);
+}
+
+#estanho {
+    background-color: #614FA0;
+}
+
+#arsenio {
+    background-color: #6178B8;
+}
+
+#antimonio {
+    background-color: #6178B8;
+}
+
+#bismuto {
+    background-color: #614FA0;
+}
+
+#moscovio {
+    background-color: rgba(102, 102, 102, 0.914);
+}
+
+.column16 {
+    display: grid;
+    grid-template-columns: 1fr;
+    display: grid;
+    gap: 8px;
+    place-content: end center;
+    grid-column: 16;
+    text-align: center;
+}
+
+.element16 {
+    display: grid;
+    background-color: #659c41;
+}
+
+.element16:hover {
+    transition-duration: 0.3s;
+    transform: scale(1.15);
+}
+
+#telurio {
+    background-color: #6178B8;
+}
+
+
+#polonio {
+    background-color: #614FA0;
+}
+
+#livermorio {
+    background-color: rgba(102, 102, 102, 0.914);
+}
+
+.column17 {
+    display: grid;
+    grid-template-columns: 1fr;
+    display: grid;
+    gap: 8px;
+    place-content: end center;
+    grid-column: 17;
+    text-align: center;
+}
+
+.element17 {
+    display: grid;
+    background-color: #659c41;
+}
+
+.element17:hover {
+    transition-duration: 0.3s;
+    transform: scale(1.15);
+}
+
+#astato {
+    background-color: #614FA0;
+}
+
+#tennesso {
+    background-color: rgba(102, 102, 102, 0.914);
+}
+
+
+.column18 {
+    display: grid;
+    grid-template-columns: 1fr;
+    display: grid;
+    gap: 8px;
+    place-content: end center;
+    grid-column: 18;
+    text-align: center;
+}
+
+.element18 {
+    display: grid;
+    background-color: #317205;
+}
+
+.element18:hover {
+    transition-duration: 0.3s;
+    transform: scale(1.15);
+}
+
+#Oganessônio {
+    background-color: rgba(102, 102, 102, 0.914);
+}

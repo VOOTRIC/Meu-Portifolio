@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.sobre-mim h2{
+font-size: 7.5rem;
+color: #cccccc;
+max-width: 6ch;
+}
+
+.container-sobremim{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.sobremim-texto{
+    align-self: center;
+    color: #525252;
+    max-width: 40ch;
+}
+
+.imagem-sobremim img{
+    border-radius: 5px;
+}

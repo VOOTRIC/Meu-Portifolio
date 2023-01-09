@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Fira Sans', Arial, sans-serif;
+    margin: 0px;
+    color: #141414
+}
+
+h1,h2,h3,p{
+    margin: 0px;
+}
+
+ul{
+    margin: 0px;
+    padding:0px;
+    list-style: none;
+}
+
+img{
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+}
+
+.container h2{
+text-align: left;
+font-size: 7.5rem;
+line-height: 1;
+text-transform: uppercase;
+word-break: break-all;
+max-width: 4ch;
+}
